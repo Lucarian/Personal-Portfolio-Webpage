@@ -1,0 +1,146 @@
+nav img {
+    border-radius: 50%;
+}
+
+#navAnchors {
+    padding-left: 12px;
+}
+
+li {
+    font-size: 20px;
+}
+
+// ------------------------------------------------------
+
+#welcome-section {
+    padding-top: 75px;
+    background-color: rgb(255, 171, 62);
+    text-align: center;
+    
+    height: 100vh;
+    min-height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondTitle {
+    font-size: 22px;
+    color: rgb(251, 255, 0);
+}
+
+// ---------------------------------------------------------
+
+#projects {
+    background-color: rgb(255, 255, 175);
+    // height: 100vh;
+    // min-height: 100vh;
+}
+
+.headings {
+    padding-top: 45px;
+    text-align: center;
+}
+
+.flexing {
+    // display: flex;
+    // justify-content: space-evenly;
+    margin-top: 32px;
+}
+
+.project-tile {
+    width: 240px;
+    border: 2px solid orange;
+    justify-content: center;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+// --------------------------------------------
+
+#contact {
+    background-color: rgb(251, 200, 79);
+    height: 80vh;
+    min-height: 80vh;
+}
+
+#contactIcons {
+    height: 60vh;
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contact h3 {
+   text-align: center;
+   padding-top: 20px; 
+}
+
+#contact a span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.email {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contactColor {
+    background-color: rgb(251, 200, 79);
+}
+
+// --------------------------------------------------------
+
+footer {
+    min-height: 160px;
+    bottom: 0px;
+    background-color: rgb(197, 71, 71);
+    text-align: center;
+    padding-top: 25px;
+}
+
+.chinese {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.created {
+    font-size: 17px;
+}
+
+// ------------------------------------------------
+
+@media screen and (max-width:520px) {  
+    #contact span {
+      display: none;
+    }
+
+    #contact h3 {
+        font-size: 26px;
+    }
+
+  }
+  
+  @media screen and (max-width:480px) {  
+    
+    footer :first-child, #projects h3 {
+      font-size: 26px;
+    }
+
+    #welcome-section div h1 {
+        font-size: 24px;
+    }
+
+    #welcome-section div p {
+        font-size: 19px;
+    }
+  }
+

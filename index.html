@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Portfolio Webpage</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="sass-css/main.css">
+
+</head>
+
+<body>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+        <a class="navbar-brand" href="#">
+            <img src="images/icon.png" height="50px" width="65px" alt="logo">
+            GeoM's
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navAnchors"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navAnchors">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Work</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!----------------------------------------------------------------------------------------------------------------->
+
+    <section id="welcome-section">
+        <div>
+            <h1>- At the Forefront End of Web Development -</h1>
+            <p class="secondTitle"> Colourful and Playful Design !!!</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h3 class="headings">- Projects Collection -</h3>
+
+        <div class="flexing container">
+
+            <div class="row">
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="project-tile card">
+                        <a href="https://codepen.io/GeoM/pen/RMXgXJ" target="_blank">
+                            <img class="card-img-top" src="images/tribute.png" alt="tribute page" height="210px"
+                                width="220px">
+                            <div class="card-body">
+                                <div class="card-title">Tribute Page</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="project-tile card">
+                        <a href="https://codepen.io/GeoM/pen/qJmbeg" target="_blank">
+                            <img class="card-img-top" src="images/survey.png" alt="survey form" height="210px"
+                                width="220px">
+                            <div class="card-body">
+                                <div class="card-title">Survey Form</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="project-tile card">
+                        <a href="https://codepen.io/GeoM/pen/wOjyEv" target="_blank">
+                            <img class="card-img-top" src="images/product.png" alt="product landing page" height="210px"
+                                width="220px">
+                            <div class="card-body">
+                                <div class="card-title">Product Landing Page</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="project-tile card">
+                        <a href="https://codepen.io/GeoM/pen/WmJMWw" target="_blank">
+                            <img class="card-img-top" src="images/skeleton.png" alt="human skeleton documentation"
+                                height="210px" width="220px">
+                            <div class="card-body">
+                                <div class="card-title">Human Skeleton Documentation</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+
+        <h3 class="">&middot;&middot; Contact Information &middot;&middot;</h3>
+
+        <div id="contactIcons">
+
+            <a id="profile-link" class="" href="https://www.freecodecamp.org/fcc0e456910-feca-409a-8eb3-936ba3c9e0ac"
+                target="_blank">
+                <i class="fab fa-free-code-camp fa-5x text-dark"></i>
+                <span class="text-dark">FreeCodeCamp</span>
+            </a>
+            <a id="github" class="" href="https://github.com/Lucarian" target="_blank">
+                <i class="fab fa-github fa-5x text-dark"></i>
+                <span class="text-dark">GitHub</span>
+            </a>
+            <a id="email" class="" href="" target="_blank" data-toggle="modal" data-target="#modal">
+                <i class="fas fa-envelope fa-5x text-dark"></i>
+                <span class="text-dark">Email</span>
+            </a>
+
+        </div>
+
+
+
+
+        <!------------------------------------------- MODAL ------------------------------------------------------->
+
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog">
+
+            <div class="modal-dialog" role="document">
+
+                <div class="modal-content">
+
+                    <div class="modal-header contactColor">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <p class="email">geormitron@gmail.com</p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-warning text-dark" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--------------------------------------------------------------------------------------------------------->
+
+    </section>
+
+    <footer>
+        <div class="chinese">!..... 网页设计 高手 .....!</div>
+        <div class="created">- Created by George Mitronikas -</div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
